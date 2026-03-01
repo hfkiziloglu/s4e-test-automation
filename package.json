@@ -1,0 +1,16 @@
+{
+  "name": "s4e-test-automation",
+  "version": "1.0.0",
+  "description": "Playwright automation tests for s4e.io - User Settings module",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.41.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
