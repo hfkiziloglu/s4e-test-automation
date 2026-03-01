@@ -26,13 +26,13 @@
 
 ---
 
-## TC-002: Language dropdown seçenekleri listeleniyor
+## TC-002: Language dropdown görüntüleniyor
 
 **Precondition:** Account Defaults tab açık
 **Steps:**
-1. Language dropdown'a tıkla
+1. Language alanına bak
 
-**Expected:** Dropdown açılır, en az bir dil seçeneği listelenir
+**Expected:** Language alanı görünür ve mevcut dil (English) gösterilir; dropdown değiştirilemez durumda (yalnızca bir dil mevcut)
 **Type:** Functional
 
 ---
