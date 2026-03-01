@@ -139,7 +139,7 @@
 **Steps:**
 1. Name alanına "Furkan" yaz
 2. Surname alanına "Kızıloğlu" yaz
-3. Address alanına "Ankara" yaz
+3. Address alanına "Ankara, Çankaya" yaz
 4. Save Changes butonuna tıkla
 
 **Expected:** Başarı mesajı gösterilir, tüm alanlar kaydedilir
@@ -163,10 +163,10 @@
 
 **Precondition:** Profile tab açık
 **Steps:**
-1. Name alanına 200 karakterden uzun bir string yaz
+1. Name alanına 300 karakterden uzun bir string yaz
 2. Save Changes butonuna tıkla
 
-**Expected:** Frontend'de karakter sınırı uygulanmaz; 200+ karakter girilebilir ancak sunucu 200 karakteri aşan değerleri reddeder ve validasyon hatası gösterilir
+**Expected:** Frontend'de karakter sınırı uygulanmaz; 300+ karakter girilebilir ancak sunucu 200 karakteri aşan değerleri reddeder ve validasyon hatası gösterilir
 **Type:** Edge Case
 
 ---

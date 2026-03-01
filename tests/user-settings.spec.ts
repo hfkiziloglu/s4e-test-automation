@@ -200,7 +200,7 @@ test.describe('Profile', () => {
     const textInputs = page.locator('input[type="text"]:not([disabled])');
     await textInputs.nth(0).fill('Furkan');
     await textInputs.nth(1).fill('Kızıloğlu');
-    await textInputs.nth(2).fill('Ankara');
+    await textInputs.nth(2).fill('Ankara, Çankaya');
     const name = await textInputs.nth(0).inputValue();
     const surname = await textInputs.nth(1).inputValue();
     const address = await textInputs.nth(2).inputValue();
